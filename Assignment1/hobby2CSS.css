@@ -1,0 +1,74 @@
+a {
+  color: #FEE715;
+}
+
+.top5SongsTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 45%;
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.top5SongsTable td,
+.top5SongsTable th {
+  border: 1px solid grey;
+  padding: 8px;
+}
+
+
+.top5SongsTable tr:hover {
+  background-color: #3a4a5c65;
+}
+
+.top5SongsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #3a4a5c;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #fee71532;
+}
+
+.flex-container-music {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.flex-item-music {
+  border: 1px solid rgb(185, 173, 0);
+  border-radius: 5%;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 2px;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-basis: 100%;
+}
+
+.styleList {
+  display: inline-block;
+  text-align: left;
+}
+
+.styleTitle {
+  margin-bottom: 0;
+}
+
+.hobbyTitle {
+  text-align: center;
+}
+
+.textColorOnMusicPage{
+  color: #fee715d5;
+}

@@ -1,0 +1,52 @@
+.homeImgStyle{
+    height: 100%;
+    width: 100%;
+}
+
+.homepageText {
+    padding-top: 200px;
+    padding-left: 5%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: #FEE715;
+    padding: 2.8%;
+    margin: 15px;
+    text-decoration: none;
+    background-color: #fee71532;
+}
+
+.btn:hover {
+    background-color: #fee715;
+    color: #101820;
+}
+
+.styleHomePageButtons{
+    padding-left: 5%;
+}
+
+.flex-container-homepage {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    height: 89vh;
+    width: 100%;
+}
+
+.flex-item-homepage1 {
+    height: 100%;
+    margin: 2px;
+    font-size: 20px;
+    text-align: center;
+    flex-basis: 40%;
+}
+
+.flex-item-homepage2 {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    flex-basis: 60%;
+}
